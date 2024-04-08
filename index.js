@@ -9,6 +9,7 @@ function coinsProgression(min = 1, max = 50) {
     for (let i = min; i < max; i++) {
         coinsResult += coinLevels[i];
     }
+    
     return coinsResult;
 }
 
