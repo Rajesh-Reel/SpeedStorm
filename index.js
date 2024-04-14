@@ -12,6 +12,7 @@ function coinsProgression(min = 1, max = 50) {
         coinsResult += coinLevels[i];
     }
     
+    document.getElementById("noOfCoins").innerHTML = coinsResult;
     return coinsResult;
 }
 
