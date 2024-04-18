@@ -15,7 +15,7 @@ function coinsProgression() {
         coinsResult += coinLevels[i];
     }
     
-    document.getElementById("noOfCoins").innerHTML = coinsResult;
+    document.getElementById("noOfCoins").innerHTML = `${coinsResult} racer shards`;
     return coinsResult;
 }
 
