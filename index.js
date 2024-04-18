@@ -6,8 +6,9 @@ const racerShards = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3,
 
 // console.log(coinLevels.length, racerShards.length);
 
-function coinsProgression(max = 50) {
+function coinsProgression() {
     let min = document.getElementById("min").value;
+    let max = document.getElementById("max").value;
 
     let coinsResult = 0;
     for (let i = min; i < max; i++) {
