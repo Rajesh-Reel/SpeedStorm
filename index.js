@@ -14,9 +14,12 @@ function coinsProgression() {
         shardResult += racerShards[i];
     }
     
+    document.getElementById("results").style.display = "block";
+
     document.getElementById("noOfCoins").innerHTML = `${coinsResult} upgrade coins`;
     document.getElementById("noOfShards").innerHTML = `${shardResult} racer shards`;
     return coinsResult;
 }
 
 console.log(coinsProgression());
+document.getElementById("results").style.display = "none";
