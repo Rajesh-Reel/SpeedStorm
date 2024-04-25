@@ -12,6 +12,9 @@
 .image-header {
     max-width: 98vw;
 }
+.image-footer {
+    width: 98vw;
+}
 .header {
     /* display: flex;
     flex-direction: column;
