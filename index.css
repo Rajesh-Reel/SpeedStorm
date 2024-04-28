@@ -12,9 +12,12 @@
 .image-header {
     max-width: 98vw;
 }
+
 .image-footer {
     width: 98vw;
+    padding-top: 5px;
 }
+
 .header {
     /* display: flex;
     flex-direction: column;
