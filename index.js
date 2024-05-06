@@ -23,3 +23,14 @@ function coinsProgression() {
 
 console.log(coinsProgression());
 document.getElementById("results").style.display = "none";
+
+function outOf200() {
+    let min2 = document.getElementById("min2").value;
+
+    let shardResult = 0;
+    let leftNumber = 0;
+
+    for (let i = 1; i < min2; i++) {
+        shardResult += racerShards[i];
+    }
+}
