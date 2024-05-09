@@ -24,13 +24,16 @@ function coinsProgression() {
 console.log(coinsProgression());
 document.getElementById("results").style.display = "none";
 
-function outOf200() {
-    let min2 = document.getElementById("min2").value;
+function outOf200(leftie = 0) {
+    let min2 = document.getElementById("min").value;
+    let max2 = document.getElementById("max").value;
 
     let shardResult = 0;
-    let leftNumber = 0;
+    let leftNumber = leftie;
 
-    for (let i = 1; i < min2; i++) {
+    for (let i = min2; i < max2; i++) {
         shardResult += racerShards[i];
     }
+
+    console.log(`${shardResult - leftNumber}/200 racer shards`)
 }
